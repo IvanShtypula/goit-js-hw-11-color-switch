@@ -30,7 +30,7 @@ function startChangeBodyColor(){
   function randomColor(){
   return colors[randomIndex];
 }
-// console.log(randomIndex);
+
     refs.body.style.backgroundColor = randomColor();
   }, 1000);
 };
